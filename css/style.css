@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ranges-small {
+    margin-bottom: 20px;
+}
+
+.ranges-middle {
+    margin-bottom: 20px;
+}
+
+.ranges-bigger {
+    margin-bottom: 20px;
+}
+
+.inputs{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    outline: none;
+}
+
+.range-box {
+    width: 100%;
+    height: 5px;
+    border: 1px solid black;
+}
+
+.range {
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    display: block;
+}
+
+.rangeMiddle {
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    display: block;
+}
+
+.rangeBig {
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    display: block;
+}
